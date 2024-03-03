@@ -10,6 +10,16 @@ const Layout = ({ children }: LayoutProps) => {
     <Box
       sx={{
         backgroundColor: "#10141F",
+        display: "flex",
+        flexDirection: {
+          xs: "column",
+          lg: "row",
+        },
+        color: "white",
+        padding: 3,
+        gap: 3,
+        overflowY: "hidden",
+        height: "100vh",
       }}
     ></Box>
   );
