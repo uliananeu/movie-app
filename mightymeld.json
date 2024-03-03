@@ -2,6 +2,6 @@
     "run": "npm run start:mightymeld",
     "web_server_url": "http://localhost:5173",
     "prefab_dir": "src/prefabs",
-    "run_prettier": true, 
+    "run_prettier": true,
     "include": ["src"]
 }
